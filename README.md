@@ -22,7 +22,7 @@ We collected the following data for 60 matches of Hell Let Loose where the playe
 
 * Points: How many points we held at the end of the match
 
-With the above data collected, we ran an ordinary least squares regresssion on the factors generally believed to have the greatest effect on the victory point results for a match. Because we are working with a relatively small dataset (<100 points), and the emphasis is on model fit as opposed to prediction, we will not utilize a test/training split. Additionally, will not use the factor "Takeover" as this is exclusive to commanding stats, and we want to generally apply our data to all matches.
+With the above data collected, we ran an ordinary least squares regression on the factors generally believed to have the greatest effect on the victory point results for a match. Because we are working with a relatively small dataset (<100 points), and the emphasis is on model fit as opposed to prediction, we will not utilize a test/training split. Additionally, will not use the factor "Takeover" as this is exclusive to commanding stats, and we want to generally apply our data to all matches.
 
 In order to generate our linear model, we will use Recursive Feature Elimination (RFE), which is essentially an automated backwards-elimination process.
 
@@ -36,7 +36,7 @@ The first round of regression with all probable factors included generated the f
 
 We will use a semi-conservative p-value cutoff of 0.1 for determining significance. Right from the start, we can see that Squad Leader Quality and Mode are clearly significant. We can also see that Nodes, Map played (as a whole), and faction side are prime candidates for elimination from our model.
 
-At each stage of elimination, we checked each factor for multicolinearity using VIF (Variance Inflation Factor) as our metric.
+At each stage of elimination, we checked each factor for multi-collinearity using VIF (Variance Inflation Factor) as our metric.
 
 After running the RFE, we were left with six factors: Squad Leader Quality, Map_Omaha Beach, Map_St Marie Du Mont, Map_Stalingrad, Mode_Offensive, and Side_Soviet.
 
@@ -46,11 +46,9 @@ The regression results with only these factors are here, with the top 3 highligh
 
 While the R-Squared value of the narrow model is slightly worse than the full effect model, it greatly clarifies the importance of our remaining factors.
 
-The modeling software did not see Seasonality as an important factor in any of the groups. This could be contributed to two issues: the lack of length of our data, as well as confounding between war participation, COVID participation and summer participation.
-
 ### Conclusion
 
-**When it comes to victory points, our data suggets that nodes don't matter.** We were able to eliminate this factor fairly early in our analysis. Interestingly, this analysis period covers the Update 11 change to the Commander's ability "Encourage." Even with this nerf, nodes still are not a significant factor in the outcome of the game. **The Node mechanics in Hell Let Loose need to be changed in order to make this a value-added game feature.**
+**When it comes to victory points, our data suggests that nodes don't matter.** We were able to eliminate this factor fairly early in our analysis. Interestingly, this analysis period covers the Update 11 change to the Commander's ability "Encourage." Even with this nerf, nodes still are not a significant factor in the outcome of the game. **The Node mechanics in Hell Let Loose need to be changed in order to make this a value-added game feature.**
 
 Based upon the sample data, **the top three factors that effect a match's outcome are, in order of importance: Squad Leader Quality, Game Mode, and whether or not you're playing Omaha Beach.** These conclusions are not particularly groundbreaking to anyone who is a long term veteran of the game, but I hope that this analysis has shed some light on the commonly held conceptions that most players have.
 
