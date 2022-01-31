@@ -1,0 +1,61 @@
+Game_ID,Date,Map,Mode,Side,Takeover,Nodes,SL_Qual,Points,Win
+1,11/28/2021,St Marie Du Mont,W,G,0,3,3,5,1
+2,12/3/2021,Hurtgen Forest,W,U,0,2,2,4,1
+3,12/3/2021,Omaha Beach,O,G,0,3,3,3,1
+4,12/4/2021,St Mere Eglise,W,G,0,2,3,5,1
+5,12/4/2021,Hill 400,W,U,0,1,2,4,1
+6,12/4/2021,Utah Beach,W,G,0,2,2,1,0
+7,12/6/2021,Purple Heart Lane,W,G,0,0,1,0,0
+8,12/7/2021,Stalingrad,W,G,0,3,3,5,1
+9,12/10/2021,Carentan,W,U,1,3,2,0,0
+10,12/10/2021,Foy,O,U,0,2,3,5,1
+11,12/10/2021,Kursk,W,S,0,2,3,4,1
+12,12/10/2021,Utah Beach,W,U,0,3,3,5,1
+13,12/12/2021,Purple Heart Lane,W,G,1,2,2,1,0
+14,12/12/2021,Omaha Beach,W,U,0,2,2,5,1
+15,12/12/2021,Stalingrad,W,S,0,2,2,5,1
+16,12/14/2021,Hurtgen Forest,W,U,0,2,2,1,0
+17,12/15/2021,Carentan,W,G,0,1,2,4,1
+18,12/15/2021,Utah Beach,W,G,1,0,1,0,0
+19,12/17/2021,Foy,W,U,1,1,1,1,0
+20,12/18/2021,Foy,W,G,0,3,3,5,1
+21,12/18/2021,Omaha Beach,O,U,0,0,2,0,0
+22,12/18/2021,Carentan,W,U,0,2,2,5,1
+23,12/18/2021,Utah Beach,W,G,0,3,3,5,1
+24,12/20/2021,St Marie Du Mont,W,G,0,1,2,2,0
+25,12/20/2021,Hill 400,W,G,0,3,3,4,1
+26,12/22/2021,Stalingrad,W,S,0,3,3,5,1
+27,12/22/2021,Carentan,W,U,0,2,2,5,1
+28,12/23/2021,Kursk,W,S,1,2,2,0,0
+29,12/24/2021,St Mere Eglise,W,G,0,1,0,0,0
+30,12/24/2021,Purple Heart Lane,W,U,0,3,3,5,1
+31,12/24/2021,Hill 400,W,G,0,2,2,0,0
+32,12/24/2021,Kursk,W,G,1,3,3,5,1
+33,12/29/2021,Stalingrad,W,S,0,2,3,5,1
+34,12/30/2021,St Mere Eglise,W,G,1,1,1,0,0
+35,12/30/2021,Foy,W,U,0,2,3,5,1
+36,12/31/2021,St Mere Eglise,W,U,1,3,3,3,1
+37,12/31/2021,Omaha Beach,O,G,0,2,3,3,1
+38,1/1/2022,St Marie Du Mont,W,G,0,1,2,1,0
+39,1/1/2022,Hurtgen Forest,W,U,0,1,1,0,0
+40,1/7/2022,Carentan,W,G,1,1,2,0,0
+41,1/8/2022,Omaha Beach,O,G,0,3,3,5,1
+42,1/8/2022,St Mere Eglise,W,U,0,2,3,5,1
+43,1/8/2022,Stalingrad,O,G,0,3,3,3,1
+44,1/8/2022,Foy,W,G,0,2,3,5,1
+45,1/8/2022,St Marie Du Mont,W,U,0,3,3,5,1
+46,1/9/2022,St Mere Eglise,W,U,1,2,3,3,1
+47,1/9/2022,Purple Heart Lane,W,U,0,2,1,0,0
+48,1/9/2022,Foy,O,U,0,3,2,1,0
+49,1/9/2022,Stalingrad,O,S,0,3,3,2,1
+50,1/9/2022,Utah Beach,W,U,0,2,3,5,1
+51,1/19/2022,Utah Beach,W,U,0,2,3,5,1
+52,1/19/2022,Kursk,W,G,0,2,3,5,1
+53,1/21/2022,Hill 400,W,G,0,2,1,1,0
+54,1/22/2022,St Marie Du Mont,W,G,0,2,2,0,0
+55,1/27/2022,Hill 400,W,G,0,3,3,5,1
+56,1/27/2022,St Mere Eglise,W,G,0,2,2,1,0
+57,1/28/2022,Foy,W,G,0,2,2,2,0
+58,1/29/2022,Foy,W,U,0,2,3,5,1
+59,1/30/2022,Utah Beach,W,G,0,2,3,5,1
+60,1/30/2022,Kursk,W,S,0,3,3,5,1
