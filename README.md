@@ -56,3 +56,17 @@ In the future, we should look to somehow incorporate tank effectiveness as a sep
 
 *Note: All of these findings are simply results from my specific sample. They could easily change with more data.*
 
+### Skills used:
+	
+**Python**
+* Data cleaning
+* Data blending
+* Linear Regression
+* Data analysis
+
+**Tableau**
+* Data visualization
+* Interactive dashboard
+* KPI identification and indication
+* Data segmentation and aggregation via calculated fields
+
