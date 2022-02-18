@@ -1,6 +1,6 @@
 # Regression Analysis of Hell Let Loose Game Data
 
-This project is based upon the data collected to create a "Hell Let Loose Commander Stats Dashboard," the details of which can be found [in this post](https://www.reddit.com/r/HellLetLoose/comments/s9s0te/i_created_a_dashboard_to_track_my_command_stats/?utm_source=share&utm_medium=web2x&context=3 "HLL Dashboard Reddit Post" ). 
+This project is based upon the data collected to create a "Hell Let Loose Commander Stats Dashboard." The Tableau dashboard can be found [here](https://public.tableau.com/app/profile/moonface/viz/HellLetLoose-CommanderStatsformoonface/Overview "Hell Let Loose Commander Stats").
 
 ![HLL Commander Dashboard](https://github.com/antonyebrown/HellLetLoose_Stats/blob/main/images/cc_viz1.jpg)
 
